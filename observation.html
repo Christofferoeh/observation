@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <title>Observation</title>
+        <link href="tailwind.min.css" rel="stylesheet">
+        <link href="observation.css" rel="stylesheet">
+        <link rel="stylesheet" href="broken-grid.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="icofont.min.css">
+    </head>
+    <body class="h-screen w-full">
+        <div class="header">
+            <div class="pl-24 pt-24">
+                <div class="w-2/3">
+                    <img class="inline fixed top-35 z-40" width="120px" src="img/Observation.svg"> <div class="inline overhead"><div class="ml-32 p-2 inline">er et </div><div data-splitting class="inline digital">digitalt tidsskrift</div> 
+                    der hjælper dig med 
+                    at navigere i <div data-splitting class="inline data">en verden af data</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 mx-24 w-full grid-container rows-12 columns-12">
+            <div data-aos="fade-up" data-aos-id="story1" class="storyline column-1to7 row-2to8 flex flex-col window text-center border-2 border-black z-30" style="background-image: url('img/cloud.png'); background-size: cover">
+                <div class="flex border-b-2 border-black bg-white draggable">
+                    <div class="text inline pt-1 flex-1"> EN VEJRUDSIGT DU KAN REGNE MED</div>
+                    <i class="icofont-arrow-right m-3 w-7 h-7 bg-white text-black"></i>
+                </div>
+                <div data-aos="fade-up" class="img story1" style="background-image: url('img/story1/Vejret.svg');"></div>
+            </div>
+            <div data-aos="fade-up" data-aos-id="story1" class="storyline column-6to12 row-6to12 flex flex-col window text-center border-2 border-black">
+                <div class="flex border-b-2 border-black draggable">
+                    <div class="text2 inline pt-1 flex-1">FARVEKOORDINEREDE BRANCHER</div>
+                    <i class="icofont-arrow-right m-3 w-7 h-7 bg-white text-black"></i>
+                </div>
+                <div data-aos="fade-up" class="img story1" style="background-image: url('img/Finans.svg'); background-color: #21519b;"></div>
+            </div>
+        </div>
+        </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/scenejs/1.4.1/scene.min.js" integrity="sha512-BBubT55FZspkq7SKaiZH+GrERzvLcbQQn8u+H3eD4eCHBgq58q2WJlkm1bNLs0oBtvef8gKH09EupgA32yle4w==" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <script src="scenes.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="scramble.js"></script>
+        <script src="https://unpkg.com/interactjs@1.10.0/dist/interact.min.js"></script>
+        <script src="window.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>

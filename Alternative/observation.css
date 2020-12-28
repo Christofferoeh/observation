@@ -1,0 +1,55 @@
+body{
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-size: 16px;
+}
+.observation{
+    width: 100px;
+    height: 100px;
+}
+canvas{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.article{
+    margin-top: 60%;
+}
+.article-headline{
+    font-family: YoungSerif;
+    font-size: 36px;
+}
+.header{
+    background-color: #1b1b1b;
+}
+.article-body{
+    font-family: Bahnschrift;
+    font-variation-settings: 'wght' 275;
+    margin-top: 10px;
+}
+.read-more{
+    font-family: Bahnschrift;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 25px;
+    font-variation-settings: 'wght' 800;
+    padding: 10px;
+    border: 1px #ffffff solid;
+    cursor: pointer;
+}
+input{
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 10px 0 10px 2px;
+    margin-right: 20px;
+    outline: none;
+    border-bottom: 1px solid #ffffff;
+}
+@font-face {
+    font-family: YoungSerif;
+    src: url(fonts/YoungSerif.otf);
+}
+@font-face {
+    font-family: Bahnschrift;
+    src: url(fonts/Bahnschrift.ttf)
+}

@@ -1,0 +1,69 @@
+@font-face{
+    font-family: bahnschrift;
+    src: url(fonts/bahnschrift.ttf) format("truetype");
+    font-weight: 100 900;
+}
+body{
+    font-family: bahnschrift;
+}
+.header{
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+.observation{
+    position: relative;
+}
+.underlined{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #1A202C;
+}
+.semibody{
+    font-size: 32px;
+    line-height: 38px;
+}
+.img{
+    flex: 0 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    padding: 32px;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+.raindrop{
+    position: absolute;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+.articleTitle{
+    font-size: 24px;
+    line-height: 30px;
+}
+.articleNumber{
+    font-size: 24px;
+    font-weight: 300;
+}
+.articles{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.articleBody{
+    overflow-y: hidden;
+}
+.preloading{
+    background: url("img/story1/Vejret.svg") no-repeat 0 0,
+    url("img/story1/VejretGlad.svg") no-repeat 0 0;
+}
+.close{
+    position: absolute;
+    top: 38px;
+    right: 0px;
+}

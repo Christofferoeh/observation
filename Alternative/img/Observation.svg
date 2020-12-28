@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1B1B1B;}
+	.st1{fill:none;stroke:#828282;stroke-width:23;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:23;stroke-miterlimit:10;}
+	.st3{display:none;}
+	.st4{display:inline;}
+	.st5{fill:none;stroke:#828282;stroke-width:20;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#828282;stroke-width:20;stroke-miterlimit:10;stroke-dasharray:16.8893,16.8893;}
+	.st7{display:inline;fill:#1B1B1B;}
+	.st8{display:inline;fill:none;stroke:#FFFFFF;stroke-width:20;stroke-miterlimit:10;}
+	.st9{display:inline;fill:#FFFFFF;}
+</style>
+<g id="Lag_1">
+	<rect class="st0" width="600" height="600"/>
+</g>
+<g id="Lag_2">
+	<path class="st1" d="M566.5,442.1c0,0-52.3-1.6-113-8.1c-124.3-13.3-95.6-258.7-172.2-258.7"/>
+	<path class="st1" d="M45.4,438.6c0,0,3.2-0.2,64.1-0.2c125.1,0,95.2-263.1,171.8-263.1"/>
+	<polygon class="st0" points="177.6,313.9 221.8,366.2 249.1,303.6 198.3,238.9 	"/>
+	<path class="st0" d="M352.2,369.3c0,0,53.1,30.1,111.8,34.2s-8.7,78.1-8.7,78.1s-120.5-7.1-120-9.7
+		C335.9,469.3,352.2,369.3,352.2,369.3z"/>
+	<rect x="33.3" y="418.6" class="st0" width="45.2" height="38"/>
+	<path class="st2" d="M52,446.2c0,0-1.9-191.6,86.4-191.6s86.4,187.5,428.1,187.5"/>
+</g>
+<g id="Lag_3" class="st3">
+	<g class="st4">
+		<g>
+			<line class="st5" x1="-8.1" y1="309.4" x2="0.4" y2="309.4"/>
+			<line class="st6" x1="17.3" y1="309.4" x2="583.1" y2="309.4"/>
+			<line class="st5" x1="591.5" y1="309.4" x2="600" y2="309.4"/>
+		</g>
+	</g>
+	
+		<rect x="171" y="246.7" transform="matrix(0.9532 0.3025 -0.3025 0.9532 103.2317 -45.32)" class="st7" width="53.8" height="127.7"/>
+	
+		<rect x="366.2" y="246.7" transform="matrix(-0.9532 0.3025 -0.3025 -0.9532 861.7937 487.7486)" class="st7" width="53.8" height="127.7"/>
+	<path class="st8" d="M-8.1,446.2c0,0,4.1-0.2,82.6-0.2c161.2,0,122.8-339.2,221.5-339.2"/>
+	<path class="st8" d="M600,446.2c0,0-4.1-0.2-82.6-0.2c-161.2,0-122.8-339.2-221.5-339.2"/>
+</g>
+<g id="Lag_4" class="st3">
+	<path class="st8" d="M4.2,449.3c0,0,3.9-0.2,79.2-0.2c154.7,0,117.8-325.5,212.5-325.5"/>
+	<path class="st8" d="M587.7,449.3c0,0-3.9-0.2-79.2-0.2c-154.7,0-117.8-325.5-212.5-325.5"/>
+	<polygon class="st9" points="66.5,459.3 197.1,459.3 197.1,341.9 173.3,400.6 150.2,431.4 131.8,445.9 107.2,456 	"/>
+	<polygon class="st9" points="525.4,459.3 394.7,459.3 394.7,341.9 418.5,400.6 441.7,431.4 460.1,445.9 484.6,456 	"/>
+</g>
+</svg>

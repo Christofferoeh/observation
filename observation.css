@@ -1,0 +1,79 @@
+@font-face{
+    font-family: bahnschrift;
+    src: url(fonts/bahnschrift.ttf) format("truetype");
+    font-weight: 100 900;
+}
+@font-face{
+    font-family: DMMono;
+    src: url(fonts/DMMono-Regular.ttf);
+}
+@font-face{
+    font-family: DMMonoBold;
+    src: url(fonts/DMMono-Medium.ttf);
+}
+body{
+    font-family: bahnschrift;
+    overflow-x: hidden;
+}
+.header{
+    line-height: 5.2vw;
+    font-size: 3.5vw;
+    font-weight: 300;
+    font-variation-settings: "wdth" 100;
+}
+.digital{
+    animation: attention 2000ms forwards;
+}
+.data{
+    animation: attention 2000ms forwards;
+    animation-delay: 1000ms;
+}
+@keyframes attention{
+    0%{
+        font-variation-settings: "wght" 300;
+    }
+    100%{
+        font-variation-settings: "wght" 600;
+    }
+}
+.img{
+    flex: 1 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    z-index: -1;
+}
+.raindrop{
+    position: absolute;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+.storyline{
+    font-family: DMMono;
+    font-size: 2.28vw;
+    font-weight: 500;
+}
+.substory{
+    font-family: DMMono;
+    font-weight: 450;
+    color: #ffffff;
+    display: inline;
+    text-shadow: -1px -1px 0 #000000, -1px 1px 0 #000000, 1px -1px 0 #000000, 1px 1px 0 #000000;
+}
+.overhead{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.window{
+    font-size: 1.4vw;
+    position:relative;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.15)
+}
+.story2{
+    background-color: #21519b;
+}
